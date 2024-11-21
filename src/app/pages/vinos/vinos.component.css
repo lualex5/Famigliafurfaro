@@ -1,0 +1,61 @@
+/* Imagen de fondo del título */
+.titulo-vinos {
+    background-image: url('../../../assets/img/todosvinos.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.titulo-texto {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Descripción debajo del título */
+.descripcion-vinos {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Estilo del contenido en zigzag */
+.titulo-vino {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #543a1d; /* Color marrón dorado */
+}
+
+.descripcion-vino {
+    color: #555;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Asegura un diseño en zigzag */
+.row > div {
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    border: 5px solid #555;  /* Marco sutil */
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+
+
+/* Ajustes para los dispositivos pequeños */
+@media (max-width: 767px) {
+    .titulo-texto {
+        font-size: 2.5rem;
+    }
+}

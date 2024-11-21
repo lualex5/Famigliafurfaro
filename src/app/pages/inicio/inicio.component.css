@@ -1,0 +1,174 @@
+/* Colores personalizados */
+:root {
+  --dark-brown: #4E342E;
+  --light-brown: #A1887F;
+  --beige: #EDE0D4;
+  --green-light: #C5E1A5;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: var(--dark-brown);
+}
+
+.navbar-brand img {
+  height: 65px; /* Tamaño del logo */
+}
+
+.navbar-brand, .nav-link {
+  color: var(--beige) !important;
+}
+
+.nav-link:hover {
+  color: var(--green-light) !important;
+}
+
+/* Sección del héroe (imagen de fondo) */
+.hero-section {
+  background-image: url("../../../assets/img/dji.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--beige);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+
+h2 {
+  color: #4e342e;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.wine-section {
+  background-color: #fff1db;
+  border-radius: 5px;
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Asegura que ambos elementos se vean como un bloque unido */
+}
+
+.wine-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-right: 4px solid #4e342e;
+}
+
+.wine-description {
+  padding: 30px;
+  color: #5d4037;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wine-description p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+@media (max-width: 768px) {
+  .wine-section {
+    flex-direction: column;
+    border-right: none;
+  }
+
+  .wine-image {
+    border-right: none;
+  }
+
+  .wine-description {
+    padding: 20px;
+  }
+}
+
+
+
+.card {
+  border: none;
+  background-color: #fff1db; /* Mantiene el tono similar */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px; /* Ajusta la altura de las imágenes */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #5d4037;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #5d4037;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Sobre Nosotros */
+#sobre-nosotros {
+background-color: #333;  /* Fondo oscuro */
+color: #fff;  /* Texto en blanco */
+padding: 50px 0;
+}
+
+#sobre-nosotros h2 {
+font-family: 'Georgia', serif;
+font-size: 2.5rem;
+color: #fff;
+}
+
+#sobre-nosotros p {
+font-family: 'Arial', sans-serif;
+font-size: 1.1rem;
+line-height: 1.8;
+color: #fff;
+}
+
+#sobre-nosotros img {
+max-width: 100%;
+height: auto;
+border: 5px solid #555;  /* Marco sutil */
+border-radius: 10px;  /* Bordes redondeados */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+body {
+  background-color: #2f1e14; 
+}

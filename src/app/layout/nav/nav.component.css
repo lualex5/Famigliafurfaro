@@ -1,0 +1,23 @@
+/* Colores personalizados */
+:root {
+  --dark-brown: #4E342E;
+  --light-brown: #A1887F;
+  --beige: #EDE0D4;
+  --green-light: #C5E1A5;
+}
+/* Estilo de la barra de navegación */
+.navbar {
+  background-color: var(--dark-brown);
+}
+
+.navbar-brand img {
+  height: 65px; /* Tamaño del logo */
+}
+
+.navbar-brand, .nav-link {
+  color: var(--beige) !important;
+}
+
+.nav-link:hover {
+  color: var(--green-light) !important;
+}

@@ -1,0 +1,36 @@
+.equipo {
+    background-color:  #555;
+}
+
+.titulo-seccion {
+    color:#ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cuadro-equipo {
+    text-align: center;
+    padding: 10px;
+}
+
+.propietario-boton {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.propietario-boton:hover {
+    transform: scale(1.05);
+}
+
+.nombre-equipo {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.rol-equipo {
+    color: #a6793e; /* Color dorado/marrón */
+    font-size: 0.9rem;
+}

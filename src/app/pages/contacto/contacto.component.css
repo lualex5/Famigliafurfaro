@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #555;
+}
+.frase {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    color: #555;
+    margin-top: 120px;
+}
+.contact-container {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 750px;
+
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #a37832;
+    text-decoration: underline;
+}
+
+.contact-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a37832;
+}
